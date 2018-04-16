@@ -1,0 +1,90 @@
+footer{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background-color: #004669;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+footer div{
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+}
+footer .copy{
+  position: relative;
+  top: -15px;
+  text-align: left;
+}
+footer .copy i{
+  font-size: 20px;
+}
+footer .copy h2{
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+}
+footer .links{
+  border-radius: 1px;
+  text-align: right;
+}
+footer .links i{
+  margin-left: 4px;
+}
+footer .links a{
+  width: 100%;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+footer .links a:hover{
+  color: #ff9900;
+}
+footer .social{
+  text-align: center;
+  border-right: 2px solid #fff;
+  border-radius: 1px;
+  overflow: hidden;
+}
+footer .social a{
+  text-decoration: none;
+  float: right;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fff;
+  color: #073763;
+
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+footer .social a:nth-child(4):hover{
+  background-color: rgb(209, 0, 0);
+  color: #fff;
+}
+footer .social a:nth-child(3):hover{
+  background-color: rgb(255, 54, 54);
+  color: #fff;
+}
+footer .social a:nth-child(2):hover{
+  background-color: rgb(27, 128, 209);
+  color: #fff;
+}
+footer .social a:nth-child(1):hover{
+  background-color: rgb(0, 54, 125);
+  color: #fff;
+}
